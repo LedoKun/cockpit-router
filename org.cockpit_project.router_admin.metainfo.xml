@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>org.cockpit_project.router_admin</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Router Admin</name>
+  <summary>Cockpit router administration dashboard for Fedora IoT</summary>
+  <description>
+    <p>
+      Router Admin provides Cockpit-based controls for a Fedora IoT router,
+      including network status, DNS services, firewall NAT, WireGuard,
+      Tailscale, wireless AP, QoS, fail2ban, UPS, DDNS, and diagnostics.
+    </p>
+  </description>
+  <extends>org.cockpit_project.cockpit</extends>
+  <launchable type="cockpit-manifest">router-admin</launchable>
+  <developer id="org.cockpit-project">
+    <name>Cockpit Project</name>
+  </developer>
+</component>

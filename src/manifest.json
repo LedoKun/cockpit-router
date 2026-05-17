@@ -3,9 +3,11 @@
         "cockpit": "137"
     },
 
+    "superuser": "require",
+
     "tools": {
         "index": {
-            "label": "Starter Kit"
+            "label": "Router Admin"
         }
     }
 }

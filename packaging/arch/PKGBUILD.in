@@ -1,9 +1,9 @@
-pkgname=cockpit-starter-kit
+pkgname=cockpit-router-admin
 pkgver=VERSION
 pkgrel=1
-pkgdesc='Cockpit Starter Kit Example Module'
+pkgdesc='Cockpit router administration dashboard'
 arch=('x86_64')
-url='https://github.com/cockpit-project/starter-kit'
+url='https://github.com/local/router-admin'
 license=(LGPL)
 source=("SOURCE")
 sha256sums=('SKIP')

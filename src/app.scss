@@ -1,6 +1,49 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 @use "page.scss";
 
-p {
-    font-weight: bold;
+.router-admin__brand {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.router-admin__subtitle {
+    color: var(--pf-t--global--text--color--subtle);
+    font-size: 0.875rem;
+}
+
+.router-admin__page-header {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.router-admin__service-status {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.router-admin__content {
+    display: grid;
+    gap: 1rem;
+}
+
+.router-admin__service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.router-admin__editor-save {
+    margin-top: 1rem;
+}
+
+.router-admin__terminal {
+    background: #151515;
+    color: #f0f0f0;
+    min-height: 12rem;
+    overflow: auto;
+    padding: 1rem;
+    white-space: pre-wrap;
 }
